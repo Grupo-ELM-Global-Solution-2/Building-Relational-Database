@@ -1,16 +1,16 @@
 -- ===== DML: população das tabelas =====
 
 -- (1) ddd_user
-INSERT INTO ddd_user (nome, email, senha) VALUES ('Ana Silva', 'ana@gmail.com', '1234');
-INSERT INTO ddd_user (nome, email, senha) VALUES ('João Souza', 'joao@gmail.com', '1234');
-INSERT INTO ddd_user (nome, email, senha) VALUES ('Carlos Lima', 'carlos@gmail.com', '1234');
-INSERT INTO ddd_user (nome, email, senha) VALUES ('Mariana Costa', 'mariana@gmail.com', '1234');
-INSERT INTO ddd_user (nome, email, senha) VALUES ('Pedro Alves', 'pedro@gmail.com', '1234');
-INSERT INTO ddd_user (nome, email, senha) VALUES ('Julia Dias', 'julia@gmail.com', '1234');
-INSERT INTO ddd_user (nome, email, senha) VALUES ('Fernando Rocha', 'fernando@gmail.com', '1234');
-INSERT INTO ddd_user (nome, email, senha) VALUES ('Beatriz Santos', 'bia@gmail.com', '1234');
-INSERT INTO ddd_user (nome, email, senha) VALUES ('Lucas Pereira', 'lucas@gmail.com', '1234');
-INSERT INTO ddd_user (nome, email, senha) VALUES ('Paula Nunes', 'paula@gmail.com', '1234');
+INSERT INTO ddd_user (nome, email, senha) VALUES ('Ana Silva', 'ana@gmail.com', 'an1nha234');
+INSERT INTO ddd_user (nome, email, senha) VALUES ('João Souza', 'joao@gmail.com', 'joao1234');
+INSERT INTO ddd_user (nome, email, senha) VALUES ('Carlos Lima', 'carlos@gmail.com', '12carlos34');
+INSERT INTO ddd_user (nome, email, senha) VALUES ('Mariana Costa', 'mariana@gmail.com', 'mar14n4');
+INSERT INTO ddd_user (nome, email, senha) VALUES ('Pedro Alves', 'pedro@gmail.com', 'Pedr0');
+INSERT INTO ddd_user (nome, email, senha) VALUES ('Julia Dias', 'julia@gmail.com', 'ju114');
+INSERT INTO ddd_user (nome, email, senha) VALUES ('Fernando Rocha', 'fernando@gmail.com', 'fernanDAO');
+INSERT INTO ddd_user (nome, email, senha) VALUES ('Beatriz Santos', 'bia@gmail.com', 'BeaBela101');
+INSERT INTO ddd_user (nome, email, senha) VALUES ('Lucas Pereira', 'lucas@gmail.com', 'LuPeras321');
+INSERT INTO ddd_user (nome, email, senha) VALUES ('Paula Nunes', 'paula@gmail.com', 'NunesFerreira12');
 
 
 -- (2) ddd_trilha
@@ -27,17 +27,16 @@ INSERT INTO ddd_trilha (nome, dificuldade, descricao) VALUES ('Segurança', 'dif
 
 
 -- (3) ddd_modulo
-INSERT INTO ddd_modulo (nome, duracao, id_tri) VALUES ('Introdução ao Java', '10h', 1);
-INSERT INTO ddd_modulo (nome, duracao, id_tri) VALUES ('POO em Java', '12h', 2);
-INSERT INTO ddd_modulo (nome, duracao, id_tri) VALUES ('APIs em Java', '20h', 3);
-INSERT INTO ddd_modulo (nome, duracao, id_tri) VALUES ('Modelagem ER', '8h', 4);
-INSERT INTO ddd_modulo (nome, duracao, id_tri) VALUES ('SQL Básico', '10h', 4);
-INSERT INTO ddd_modulo (nome, duracao, id_tri) VALUES ('Sintaxe Python', '6h', 5);
-INSERT INTO ddd_modulo (nome, duracao, id_tri) VALUES ('Projetos Python', '14h', 6);
-INSERT INTO ddd_modulo (nome, duracao, id_tri) VALUES ('APIs REST', '16h', 7);
-INSERT INTO ddd_modulo (nome, duracao, id_tri) VALUES ('HTML e CSS', '8h', 8);
-INSERT INTO ddd_modulo (nome, duracao, id_tri) VALUES ('Docker', '12h', 9);
-
+INSERT INTO ddd_modulo (nome, duracao, link, id_tri) VALUES ('Introdução ao Java', '10h', 'https://exemplo.com/intro-java', 1);
+INSERT INTO ddd_modulo (nome, duracao, link, id_tri) VALUES ('POO em Java', '12h', 'https://exemplo.com/poo-java', 2);
+INSERT INTO ddd_modulo (nome, duracao, link, id_tri) VALUES ('APIs em Java', '20h', 'https://exemplo.com/apis-java', 3);
+INSERT INTO ddd_modulo (nome, duracao, link, id_tri) VALUES ('Modelagem ER', '8h', 'https://exemplo.com/modelagem-er', 4);
+INSERT INTO ddd_modulo (nome, duracao, link, id_tri) VALUES ('SQL Básico', '10h', 'https://exemplo.com/sql-basico', 4);
+INSERT INTO ddd_modulo (nome, duracao, link, id_tri) VALUES ('Sintaxe Python', '6h', 'https://exemplo.com/sintaxe-python', 5);
+INSERT INTO ddd_modulo (nome, duracao, link, id_tri) VALUES ('Projetos Python', '14h', 'https://exemplo.com/projetos-python', 6);
+INSERT INTO ddd_modulo (nome, duracao, link, id_tri) VALUES ('APIs REST', '16h', 'https://exemplo.com/apis-rest', 7);
+INSERT INTO ddd_modulo (nome, duracao, link, id_tri) VALUES ('HTML e CSS', '8h', 'https://exemplo.com/html-css', 8);
+INSERT INTO ddd_modulo (nome, duracao, link, id_tri) VALUES ('Docker', '12h', 'https://exemplo.com/docker', 9);
 
 -- (4) ddd_prog
 INSERT INTO ddd_prog (status, id_user, id_mod) VALUES (10, 1, 1);
