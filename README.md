@@ -30,7 +30,8 @@ CREATE TABLE ddd_prog (
     id_user NUMBER(5) NOT NULL,
     id_modulo NUMBER(5) NOT NULL,
     CONSTRAINT FK_PROG_USER FOREIGN KEY (id_user) REFERENCES ddd_user(id_user) ON DELETE CASCADE,
-    CONSTRAINT FK_PROG_MODULO FOREIGN KEY (id_modulo) REFERENCES ddd_modulo(id_mod) ON DELETE CASCADE
+    CONSTRAINT FK_PROG_MODULO FOREIGN KEY (id_modulo) REFERENCES ddd_modulo(id_mod) ON DELETE CASCADE,
+    CONSTRAINT UQ_PROG_USER_MODULO UNIQUE (id_user, id_modulo)
 );
 
 CREATE TABLE ddd_sugestoes (
@@ -64,4 +65,5 @@ SELECT * FROM ddd_modulo;
 SELECT * FROM ddd_prog;
 SELECT * FROM ddd_sugestoes;
 SELECT * FROM ddd_trilha_pers;
+
 
