@@ -14,7 +14,7 @@ Para testar o sistema, utilize as seguintes credenciais de login:
 - **Email:** joao@gmail.com
 - **Senha:** 123@mudar
 
-Após o login, você poderá explorar as funcionalidades da área do paciente, como perfil, consultas e receitas.
+Após o login, você poderá explorar as funcionalidades oferecidas pelo sistema!
 
 
 ### Link Repositórios
