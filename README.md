@@ -2,7 +2,7 @@
 
 ## Link Front-end
 
-- Repositório GitHub: [https://github.com/Grupo-ELM-Global-Solution-2/Front-end-design-engineering](https://github.com/Grupo-ELM-Global-Solution-2/Front-end-design-engineering)
+- Repositório Front-end: [https://github.com/Grupo-ELM-Global-Solution-2/Front-end-design-engineering](https://github.com/Grupo-ELM-Global-Solution-2/Front-end-design-engineering)
 
 - Link Vercel: [https://front-end-design-engineering-two.vercel.app/](https://front-end-design-engineering-two.vercel.app/)
 
